@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+.topnav{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    font-size: 20px;
+    background-color: #FCAEAE;
+  
+}
+.topnav a {
+    text-decoration: none;
+    color:#FF6666
+    
+}
+
+.side{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFEADD;
+
+}
+p{
+    width: 12%;
+    background-color: white;
+    border-radius:10px;
+    padding:7px;
+}
+
+.text{
+    flex:50%;
+    color: #FF6666;
+    padding: 20px;
+    margin-top: 50px;
+}
+.photo{
+    flex:20%;
+    padding: 20px;
+}
+.Arrow{
+    margin-left: 750px;
+    margin-bottom: 100px;
+
+}
+   
+form input,button{
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+ 
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side1{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: "Mochiy Pop One", sans-serif;
+    background-color:#FF6666;
+    color:#FFEADD;
+    }
+    .text1{
+
+    }
+
+ 
+
